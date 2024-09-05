@@ -1,0 +1,39 @@
+:root{
+    --header_height : 100px;
+    --info_height:50px;
+}
+html , body , h1 , p{
+    margin: 0;
+}
+.card{
+    width: auto;
+}
+#header{
+    background-color: #fff;
+    height: var(--header_height);
+    top: 0px;
+    position: sticky;
+}
+#header h1{
+    height: var(--header_height);
+    line-height: var(--header_height);
+    text-align: center;
+}
+#main{
+    /*background-color: blue;*/
+    height: 1000px;
+}
+#info{
+    background-color: #F5F7F8;
+}
+#info p{
+    height: var(--info_height);
+    size: var(--info_height);
+    line-height: var(--info_height);
+}
+#info  p .piece{
+    margin: 0 var(--info_height);
+    height: var(--info_height);
+    size: var(--info_height);
+    line-height: var(--info_height);
+}
